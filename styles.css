@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+input[type="date"], input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.logo img {
+    width: 300px;
+    margin-top: 20px;
+    
+    //border: solid;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 20px;
+    color: #0074D9;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+h1#price {
+    font-size: 36px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0074D9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.fin {
+    font-size: 28px;
+    color: #333;
+    //border: solid;
+}

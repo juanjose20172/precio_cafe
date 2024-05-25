@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precio del Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Precio Café hoy</h1>
+        <div id="inputContainer">
+            <input type="date" id="dateInput" onchange="updateDate()">
+            
+            <input type="number" id="priceInput" placeholder="$1,678,000" onchange="updatePrice()">
+        </div>
+        <h2 id="date">22/mayo/2024</h2>
+        <h1 id="price">$1,678,000 COP</h1>
+        <p>Precio total por carga de 125 Kg de pergamino seco FR 94</p>
+        <div class="logo">
+            <p>Informa:</p>
+            <img src="agro.jpeg" alt="AGROITEC">
+        </div>
+        <p class="fin"><b>www.agroitec.com</b></p>
+        <button id="hideButton" onclick="hideInputs()">Hide</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
